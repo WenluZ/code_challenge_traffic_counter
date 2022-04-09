@@ -8,7 +8,7 @@ def read_csv(file_path, index_col_name, value_col_name ):
 
     cols =[index_col_name,value_col_name]
     #read data from csv input files with col name applied
-    df = pd.read_csv(file_path, header=None, names=cols)
+    df = pd.read_csv(file_path, header=None, names=cols, sep=' ')
 
     #convert the string into timestamp datatype
     df[index_col_name] = pd.to_datetime(df[index_col_name], format='%Y-%m-%dT%H:%M:%S')
