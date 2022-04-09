@@ -58,7 +58,6 @@ Write a program that reads a file, where each line contains a timestamp (in yyyy
 
   <br />
 - example:
-<br />
     > python main.py -f sum_per_day -p ../traffic_counter.csv -i timestamp -v count
 
 <br />
