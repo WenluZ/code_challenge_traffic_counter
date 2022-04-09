@@ -13,12 +13,11 @@ Write a program that reads a file, where each line contains a timestamp (in yyyy
 >2021-12-01T06:30:00 15 
 
 <br />
-<br />
 
 ## Aussumption
 
 - clean input  can be expected as it's machine-generated.
-- input file format .csv
+- input file format .txt 
 
 <br />
 
@@ -34,8 +33,6 @@ Write a program that reads a file, where each line contains a timestamp (in yyyy
 <br />
 
 ## Quick Start
-
-<br />
 
 - Clone this repo using git clone 
 - Move to the appropriate directory: 
@@ -58,7 +55,7 @@ Write a program that reads a file, where each line contains a timestamp (in yyyy
 
   <br />
 - example:
-    > python main.py -f sum_per_day -p ../traffic_counter.csv -i timestamp -v count
+    > python main.py -f sum_per_day -p ../traffic_counter.txt -i timestamp -v count
 
 <br />
 
@@ -74,9 +71,6 @@ Write a program that reads a file, where each line contains a timestamp (in yyyy
 <br />
 
 ## Future Work
-
-<br />
-
 - Imagine the file exported to S3, a boto3 connection needs to be added on, or other connectors to other platforms.
 
 - data warehouse can be utilised via SQL to enable quicker data manipulation than using pandas.
