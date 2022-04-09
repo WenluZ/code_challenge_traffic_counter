@@ -13,7 +13,6 @@ Write a program that reads a file, where each line contains a timestamp (in yyyy
 >2021-12-01T06:30:00 15 
 
 <br />
-<br />
 
 ## Aussumption
 
@@ -35,15 +34,12 @@ Write a program that reads a file, where each line contains a timestamp (in yyyy
 
 ## Quick Start
 
-<br />
-
 - Clone this repo using git clone 
 - Move to the appropriate directory: 
     > cd traffic_counter/main.
 - Run command line:
   
   > python main.py -f <function_name> -p <file_path> -i <index_col_name> -v <count_col_name>
-
 
 
 ### Note: 
@@ -74,8 +70,6 @@ Write a program that reads a file, where each line contains a timestamp (in yyyy
 <br />
 
 ## Future Work
-
-<br />
 
 - Imagine the file exported to S3, a boto3 connection needs to be added on, or other connectors to other platforms.
 
