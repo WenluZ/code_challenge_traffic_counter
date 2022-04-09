@@ -36,7 +36,7 @@ Write a program that reads a file, where each line contains a timestamp (in yyyy
 
 - Clone this repo using git clone 
 - Move to the appropriate directory: 
-    > cd traffic_counter/main.
+    > cd traffic_counter/main
 - Run command line:
   
   > python main.py -f <function_name> -p <file_path> -i <index_col_name> -v <count_col_name>
